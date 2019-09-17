@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1305E3AE2330BA58002F8713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305E3AD2330BA58002F8713 /* AppDelegate.swift */; };
+		1305E3B02330BA58002F8713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305E3AF2330BA58002F8713 /* ViewController.swift */; };
+		1305E3B32330BA58002F8713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1305E3B12330BA58002F8713 /* Main.storyboard */; };
+		1305E3B52330BA5B002F8713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1305E3B42330BA5B002F8713 /* Assets.xcassets */; };
+		1305E3B82330BA5B002F8713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1305E3B62330BA5B002F8713 /* LaunchScreen.storyboard */; };
+		3BF13DF02F877BDC9E15885A /* Pods_VideoStreming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4244FA2DCB80648EBA37B /* Pods_VideoStreming.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1305E3AA2330BA58002F8713 /* VideoStreming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoStreming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1305E3AD2330BA58002F8713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1305E3AF2330BA58002F8713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1305E3B22330BA58002F8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1305E3B42330BA5B002F8713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1305E3B72330BA5B002F8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1305E3B92330BA5B002F8713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA4244FA2DCB80648EBA37B /* Pods_VideoStreming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoStreming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55085CC048007CD1DECF46A /* Pods-VideoStreming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoStreming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoStreming/Pods-VideoStreming.debug.xcconfig"; sourceTree = "<group>"; };
+		E821842AA7052562E511D62B /* Pods-VideoStreming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoStreming.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoStreming/Pods-VideoStreming.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1305E3A72330BA58002F8713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF13DF02F877BDC9E15885A /* Pods_VideoStreming.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1305E3A12330BA58002F8713 = {
+			isa = PBXGroup;
+			children = (
+				1305E3AC2330BA58002F8713 /* VideoStreming */,
+				1305E3AB2330BA58002F8713 /* Products */,
+				F839B7EE8405349E6A0066C5 /* Pods */,
+				66E47453D10E5325928CDB2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1305E3AB2330BA58002F8713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1305E3AA2330BA58002F8713 /* VideoStreming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1305E3AC2330BA58002F8713 /* VideoStreming */ = {
+			isa = PBXGroup;
+			children = (
+				1305E3AD2330BA58002F8713 /* AppDelegate.swift */,
+				1305E3AF2330BA58002F8713 /* ViewController.swift */,
+				1305E3B12330BA58002F8713 /* Main.storyboard */,
+				1305E3B42330BA5B002F8713 /* Assets.xcassets */,
+				1305E3B62330BA5B002F8713 /* LaunchScreen.storyboard */,
+				1305E3B92330BA5B002F8713 /* Info.plist */,
+			);
+			path = VideoStreming;
+			sourceTree = "<group>";
+		};
+		66E47453D10E5325928CDB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4244FA2DCB80648EBA37B /* Pods_VideoStreming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F839B7EE8405349E6A0066C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55085CC048007CD1DECF46A /* Pods-VideoStreming.debug.xcconfig */,
+				E821842AA7052562E511D62B /* Pods-VideoStreming.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1305E3A92330BA58002F8713 /* VideoStreming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1305E3BC2330BA5B002F8713 /* Build configuration list for PBXNativeTarget "VideoStreming" */;
+			buildPhases = (
+				CA30F08D04412E4918303910 /* [CP] Check Pods Manifest.lock */,
+				1305E3A62330BA58002F8713 /* Sources */,
+				1305E3A72330BA58002F8713 /* Frameworks */,
+				1305E3A82330BA58002F8713 /* Resources */,
+				F2D03B7E18D0B9E0D01C22EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoStreming;
+			productName = VideoStreming;
+			productReference = 1305E3AA2330BA58002F8713 /* VideoStreming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1305E3A22330BA58002F8713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Wipro;
+				TargetAttributes = {
+					1305E3A92330BA58002F8713 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 1305E3A52330BA58002F8713 /* Build configuration list for PBXProject "VideoStreming" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1305E3A12330BA58002F8713;
+			productRefGroup = 1305E3AB2330BA58002F8713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1305E3A92330BA58002F8713 /* VideoStreming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1305E3A82330BA58002F8713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1305E3B82330BA5B002F8713 /* LaunchScreen.storyboard in Resources */,
+				1305E3B52330BA5B002F8713 /* Assets.xcassets in Resources */,
+				1305E3B32330BA58002F8713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA30F08D04412E4918303910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoStreming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D03B7E18D0B9E0D01C22EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoStreming/Pods-VideoStreming-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoGenerator/SwiftVideoGenerator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoGenerator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoStreming/Pods-VideoStreming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1305E3A62330BA58002F8713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1305E3B02330BA58002F8713 /* ViewController.swift in Sources */,
+				1305E3AE2330BA58002F8713 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1305E3B12330BA58002F8713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1305E3B22330BA58002F8713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1305E3B62330BA5B002F8713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1305E3B72330BA5B002F8713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1305E3BA2330BA5B002F8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1305E3BB2330BA5B002F8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1305E3BD2330BA5B002F8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55085CC048007CD1DECF46A /* Pods-VideoStreming.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoStreming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-siva.VideoStreming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1305E3BE2330BA5B002F8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E821842AA7052562E511D62B /* Pods-VideoStreming.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoStreming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-siva.VideoStreming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1305E3A52330BA58002F8713 /* Build configuration list for PBXProject "VideoStreming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1305E3BA2330BA5B002F8713 /* Debug */,
+				1305E3BB2330BA5B002F8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1305E3BC2330BA5B002F8713 /* Build configuration list for PBXNativeTarget "VideoStreming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1305E3BD2330BA5B002F8713 /* Debug */,
+				1305E3BE2330BA5B002F8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1305E3A22330BA58002F8713 /* Project object */;
+}
